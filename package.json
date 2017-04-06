@@ -1,0 +1,48 @@
+{
+	"name": "timetasktrackercomponentbased",
+	"version": "1.0.0",
+	"description": "A Vue.js project",
+	"author": "jonjohnsonwright <jonjohnsonwright@email.com>",
+	"private": true,
+	"scripts": {
+		"dev": "node build/dev-server.js",
+		"build": "node build/build.js"
+	},
+	"dependencies": {
+		"vue": "^2.2.6"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.61",
+		"@types/node": "^7.0.12",
+		"@types/socket.io-client": "^1.4.29",
+		"chalk": "^1.1.3",
+		"connect-history-api-fallback": "^1.3.0",
+		"copy-webpack-plugin": "^4.0.1",
+		"css-loader": "^0.28.0",
+		"eventsource-polyfill": "^0.9.6",
+		"express": "^4.15.2",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"friendly-errors-webpack-plugin": "^1.6.1",
+		"html-webpack-plugin": "^2.28.0",
+		"http-proxy-middleware": "^0.17.4",
+		"jquery": "^3.2.1",
+		"lodash": "^4.17.4",
+		"optimize-css-assets-webpack-plugin": "^1.3.0",
+		"ora": "^1.2.0",
+		"rimraf": "^2.6.1",
+		"semver": "^5.3.0",
+		"socket.io-client": "^1.7.3",
+		"ts-loader": "^2.0.3",
+		"typescript": "^2.2.2",
+		"url-loader": "^0.5.8",
+		"vue-class-component": "^5.0.1",
+		"vue-loader": "^11.3.4",
+		"vue-style-loader": "^2.0.5",
+		"vue-template-compiler": "^2.2.6",
+		"webpack": "^2.3.3",
+		"webpack-bundle-analyzer": "^2.3.1",
+		"webpack-dev-middleware": "^1.10.1",
+		"webpack-hot-middleware": "^2.18.0",
+		"webpack-merge": "^4.1.0"
+	}
+}
